@@ -10,11 +10,16 @@ description: "Water, mold, fire, and storm mitigation and restoration services f
   </head>
   <body>
 
+    {% include "header.njk" %}
+    {% include "nav.njk" %}
+
     <main>
       <div class="maintext">
         {{ content | safe }}
       </div>
     </main>
+
+    {% include "footer.njk" %}
     
   </body>
 </html>

@@ -4,6 +4,6 @@ title: "Service Rite USA"
 description: "Water, mold, fire, and storm mitigation and restoration services for multi-family dwellings and commercial property"
 ---
 
-## About us
+# Water, mold, fire, and storm mitigation and restoration services for multi-family dwellings and commercial property
 
-Service Rite USA: Water, mold, fire, and storm mitigation and restoration services for multi-family dwellings and commercial property
+![Service Rite van](/assets/img/service_rite_van.png "fake")

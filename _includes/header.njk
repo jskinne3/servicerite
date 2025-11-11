@@ -1,0 +1,32 @@
+<header class="logo-header">
+  <div>
+    <a href="/">
+      <img id="logo" src="/assets/img/logo.png" alt="Service Rite logo"/>
+    </a>
+  </div>
+  <div id="contact">
+    &#128222; +1 (402) 413-8888 
+    <a href="/about/contact"><span class="button">Contact us</span></a>
+  </div>
+  <div id="hamburger">
+    <a href="javascript:void(0);" class="icon" onclick="hamburgerHelper()">
+      <img src="/assets/img/hamburger.svg" alt="hamburger menu button" />
+    </a>
+  </div>
+  <script>
+    function hamburgerHelper() {
+      const nav = document.getElementById("mainnav");
+      const ham = document.getElementById("hamburger");
+      if (nav.classList.contains('hiddennav')) {
+        nav.classList.remove('hiddennav')
+        ham.classList.add('hamhlight')
+      } else {
+        nav.classList.add('hiddennav')
+        ham.classList.remove('hamhlight')
+      }
+    } 
+  </script>
+</header>
+<div id="contact-mobile">
+  <a href="/about/contact">Contact us</a>
+</div>
